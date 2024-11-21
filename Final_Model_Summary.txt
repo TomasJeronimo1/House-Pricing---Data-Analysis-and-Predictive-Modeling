@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       log_listingPrice   R-squared:                       0.774
+Model:                            OLS   Adj. R-squared:                  0.770
+Method:                 Least Squares   F-statistic:                     216.1
+Date:                Wed, 20 Nov 2024   Prob (F-statistic):          1.12e-157
+Time:                        19:05:32   Log-Likelihood:                -69.517
+No. Observations:                 514   AIC:                             157.0
+Df Residuals:                     505   BIC:                             195.2
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           9.2161      0.161     57.123      0.000       8.899       9.533
+energy_Good                    -0.1524      0.048     -3.183      0.002      -0.246      -0.058
+energy_OK                      -0.2751      0.054     -5.100      0.000      -0.381      -0.169
+energy_Very Bad                -0.2720      0.098     -2.789      0.005      -0.464      -0.080
+energy_Very Good                0.0910      0.037      2.427      0.016       0.017       0.165
+listing_Moradia                 0.1841      0.044      4.216      0.000       0.098       0.270
+floor_apartment_interaction -7.577e-05      0.005     -0.016      0.987      -0.009       0.009
+Age                            -0.0023      0.001     -2.265      0.024      -0.004      -0.000
+log_livingArea                  0.8803      0.034     25.540      0.000       0.813       0.948
+==============================================================================
+Omnibus:                       40.975   Durbin-Watson:                   1.768
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.317
+Skew:                           0.426   Prob(JB):                     2.00e-21
+Kurtosis:                       4.930   Cond. No.                         408.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
